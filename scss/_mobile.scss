@@ -1,0 +1,238 @@
+@media (max-width: 1260px) {
+  .social-container {
+    position: fixed;
+    height: 280px;
+    width: 50px;
+    left: 15px;
+    > div {
+      .social-line {
+        position: absolute;
+        height: 40px;
+        width: 2px;
+        background-color: $text-dark;
+
+        &:nth-of-type(1) {
+          top: 78px;
+        }
+        &:nth-of-type(2) {
+          bottom: 78px;
+        }
+      }
+      i {
+        font-size: 50px;
+        color: $text-dark;
+        transition: all 0.5s ease-in-out;
+        &:hover {
+          transform: scale(1.05);
+          color: $primary-blue;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    #hero-text {
+      .text-wrap {
+        margin-left: 3rem;
+      }
+      h1 {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  .projects-sect {
+    .projects-grid {
+      .project1 {
+        img {
+          &:first-of-type {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #header {
+    .hidden-socials {
+      display: block;
+      display: flex;
+      a:nth-of-type(2),
+      a:nth-of-type(3) {
+        margin-left: 1rem;
+      }
+      i {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .social-container {
+    display: none;
+  }
+
+  .hero {
+    &__bg {
+      grid-template-columns: 1fr;
+    }
+    #hero-text {
+      .text-wrap {
+        margin-left: 0;
+      }
+      h1 {
+        font-size: 4rem;
+      }
+    }
+  }
+
+  .about-me {
+    img {
+      height: 300px;
+      width: 300px;
+    }
+    .dark-card {
+      width: 80vw;
+    }
+  }
+
+  .academics {
+    .grid-container {
+      max-width: 600px;
+    }
+    .page-container {
+      grid-template-columns: 1fr;
+      grid-row: 1;
+    }
+    &__experience {
+      > div {
+        min-width: auto;
+      }
+    }
+    &__education {
+      > div {
+      }
+    }
+    &__skills {
+      > div {
+      }
+    }
+  }
+
+  .skills-grid .tech-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    > div {
+      img {
+        height: 100px;
+        width: 100px;
+      }
+    }
+  }
+
+  .projects-sect {
+    .grid-container {
+      max-width: 600px;
+    }
+    .projects-grid {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      .project1,
+      .project3,
+      .project4,
+      .project5 {
+        grid-column: auto;
+      }
+      .project1 {
+        img {
+          height: 150px;
+          width: 200px;
+          &:first-of-type {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .contact-sect {
+    .container {
+      > div {
+        flex-direction: column;
+        > div {
+          width: 100%;
+        }
+      }
+    }
+    h3 {
+      margin-top: 1.5rem;
+    }
+    .card {
+      margin: 1rem;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    &__bg {
+      grid-template-columns: 1fr;
+      #hero-text {
+        margin-top: 8rem;
+        h1 {
+          font-size: 3rem;
+        }
+        h2 {
+          font-size: 1.25rem;
+        }
+      }
+    }
+  }
+
+  .section-title,
+  .section-title--dark {
+    font-size: 2rem;
+  }
+
+  .about-me {
+    .container > div:first {
+      margin-bottom: 0;
+    }
+    &__info {
+      margin-top: 0;
+    }
+    img {
+      height: 250px;
+      width: 250px;
+    }
+    .dark-card {
+      width: 80vw;
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .academics {
+    .page-container {
+      grid-template-columns: 1fr;
+      grid-row: 1;
+    }
+    &__experience {
+      > div {
+        min-width: auto;
+      }
+    }
+  }
+}
