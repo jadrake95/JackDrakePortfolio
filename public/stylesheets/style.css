@@ -429,7 +429,7 @@ header nav #hiddenSocials {
   grid-template-columns: 1fr 1fr;
   height: 100vh;
   width: 100vw;
-  background: url(../../images/hero-img.png) center center/cover;
+  background: url(../../images/compressed-hero.png) center center/cover;
   z-index: -2;
 }
 
