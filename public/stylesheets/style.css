@@ -127,7 +127,7 @@
 .section-title {
   margin: 1rem auto;
   font-size: 3rem;
-  color: #ede3e4;
+  color: #f4f4f4;
   text-align: center;
 }
 
@@ -178,7 +178,7 @@
 
 .dark-card {
   background-color: #555;
-  color: #ede3e4;
+  color: #f4f4f4;
   padding: 1rem;
   border-radius: 6px;
   box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.4);
@@ -275,9 +275,9 @@ li {
   list-style-type: none;
 }
 
-.btn {
+.btn, .projects-sect .projects-grid .card .buttons-container .card-btn {
   padding: 0.5rem 1.75rem;
-  color: #ede3e4;
+  color: #f4f4f4;
   font-size: 1rem;
   background: linear-gradient(to right, #858ae3, #4895ef);
   border-radius: 0.75rem;
@@ -287,7 +287,7 @@ li {
   cursor: pointer;
 }
 
-.btn:hover {
+.btn:hover, .projects-sect .projects-grid .card .buttons-container .card-btn:hover {
   opacity: 0.9;
   transform: scaleX(0.98);
 }
@@ -640,12 +640,9 @@ header nav #hiddenSocials {
 
 .projects-sect .projects-grid .card {
   position: relative;
+  justify-content: space-between;
   margin: 0;
   transition: all 0.3s ease-in-out;
-}
-
-.projects-sect .projects-grid .card:hover {
-  cursor: pointer;
 }
 
 .projects-sect .projects-grid .card:hover img {
@@ -654,6 +651,24 @@ header nav #hiddenSocials {
 
 .projects-sect .projects-grid .card p {
   max-width: 500px;
+}
+
+.projects-sect .projects-grid .card .buttons-container {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.25rem;
+}
+
+.projects-sect .projects-grid .card .buttons-container .card-btn {
+  color: #f4f4f4;
+  border-radius: 0rem;
+  border: 1px solid #333;
+  font-size: 0.75rem;
+  width: 120px;
+  text-align: center;
+  padding: 0.5rem 1rem;
 }
 
 .projects-sect .projects-grid .project1 {
