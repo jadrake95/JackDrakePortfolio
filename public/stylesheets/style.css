@@ -946,6 +946,7 @@ footer {
   .section-title,
   .section-title--dark {
     font-size: 2rem;
+    margin: 1rem;
   }
   .about-me .container > div:first {
     margin-bottom: 0;
