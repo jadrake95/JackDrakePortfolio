@@ -826,15 +826,18 @@ footer {
   }
 }
 
+@media (max-width: 1150px) {
+  .projects-sect .projects-grid .project1 img:first-of-type {
+    display: none;
+  }
+}
+
 @media (max-width: 1024px) {
   .hero #hero-text .text-wrap {
     margin-left: 3rem;
   }
   .hero #hero-text h1 {
     font-size: 3rem;
-  }
-  .projects-sect .projects-grid .project1 img:first-of-type {
-    display: none;
   }
 }
 
@@ -966,6 +969,9 @@ footer {
   }
   .academics__experience > div {
     min-width: auto;
+  }
+  .projects-sect .grid-container {
+    padding: 0 0.75rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

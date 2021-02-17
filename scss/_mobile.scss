@@ -32,18 +32,7 @@
   }
 }
 
-@media (max-width: 1024px) {
-  .hero {
-    #hero-text {
-      .text-wrap {
-        margin-left: 3rem;
-      }
-      h1 {
-        font-size: 3rem;
-      }
-    }
-  }
-
+@media (max-width: 1150px) {
   .projects-sect {
     .projects-grid {
       .project1 {
@@ -52,6 +41,19 @@
             display: none;
           }
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    #hero-text {
+      .text-wrap {
+        margin-left: 3rem;
+      }
+      h1 {
+        font-size: 3rem;
       }
     }
   }
@@ -234,5 +236,8 @@
         min-width: auto;
       }
     }
+  }
+  .projects-sect .grid-container {
+    padding: 0 0.75rem;
   }
 }
