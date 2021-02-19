@@ -577,12 +577,9 @@ header nav #hiddenSocials {
   padding: 1rem;
 }
 
-.academics__experience ul {
-  margin-left: 1rem;
-}
-
 .academics__experience ul li {
   list-style-type: disc;
+  list-style-position: inside;
 }
 
 .academics__education, .academics__skills {
