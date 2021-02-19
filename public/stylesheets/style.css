@@ -577,6 +577,14 @@ header nav #hiddenSocials {
   padding: 1rem;
 }
 
+.academics__experience ul {
+  margin-left: 1rem;
+}
+
+.academics__experience ul li {
+  list-style-type: disc;
+}
+
 .academics__education, .academics__skills {
   display: flex;
   flex-direction: column;
