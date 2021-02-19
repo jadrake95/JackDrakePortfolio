@@ -980,6 +980,9 @@ footer {
   .academics__experience > div {
     min-width: auto;
   }
+  .academics__experience ul li {
+    font-size: 0.75rem;
+  }
   .projects-sect .grid-container {
     padding: 0 0.75rem;
   }
