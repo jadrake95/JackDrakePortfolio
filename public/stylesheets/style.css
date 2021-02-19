@@ -794,6 +794,11 @@ footer {
   padding: 1rem 0;
 }
 
+.btn-pop {
+  color: #555;
+  background-color: #fff;
+}
+
 @media (max-width: 1260px) {
   .social-container {
     position: fixed;
