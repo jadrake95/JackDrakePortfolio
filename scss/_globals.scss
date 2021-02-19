@@ -29,7 +29,8 @@ li {
   padding: 0.5rem 1.75rem;
   color: $text-light;
   font-size: 1rem;
-  background: linear-gradient(to right, #858ae3, #4895ef);
+  // background: linear-gradient(to right, #858ae3, #4895ef);
+  background: #555;
   border-radius: 1rem;
   box-shadow: 2px 2px 2px rgba($color: #000000, $alpha: 0.1);
   transition: all 0.2s;
