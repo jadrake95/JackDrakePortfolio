@@ -343,8 +343,7 @@ header {
         .card-btn {
           @extend .btn;
           color: $text-light;
-          border-radius: 0rem;
-          border: 1px solid $text-dark;
+          border-radius: 1rem;
           font-size: 0.75rem;
           width: 120px;
           text-align: center;

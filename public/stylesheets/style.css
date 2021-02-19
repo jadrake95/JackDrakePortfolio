@@ -663,8 +663,7 @@ header nav #hiddenSocials {
 
 .projects-sect .projects-grid .card .buttons-container .card-btn {
   color: #f4f4f4;
-  border-radius: 0rem;
-  border: 1px solid #333;
+  border-radius: 1rem;
   font-size: 0.75rem;
   width: 120px;
   text-align: center;
