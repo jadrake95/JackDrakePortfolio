@@ -684,6 +684,11 @@ header nav #hiddenSocials {
   width: 300px;
 }
 
+.projects-sect .projects-grid .project2 img {
+  width: 300px;
+  height: 200px;
+}
+
 .projects-sect .projects-grid .project4 {
   grid-column: 2 / span 2;
 }
@@ -920,10 +925,14 @@ footer {
   }
   .projects-sect .projects-grid .project1 img {
     height: 150px;
-    width: 200px;
+    width: 225px;
   }
   .projects-sect .projects-grid .project1 img:first-of-type {
     display: none;
+  }
+  .projects-sect .projects-grid .project2 img {
+    height: 150px;
+    width: 225px;
   }
   .contact-sect .container > div {
     flex-direction: column;

@@ -159,10 +159,16 @@
       .project1 {
         img {
           height: 150px;
-          width: 200px;
+          width: 225px;
           &:first-of-type {
             display: none;
           }
+        }
+      }
+      .project2 {
+        img {
+          height: 150px;
+          width: 225px;
         }
       }
     }
