@@ -675,6 +675,15 @@ header nav #hiddenSocials {
   padding: 0.5rem 1rem;
 }
 
+.projects-sect .projects-grid .card .buttons-container .btn-disable {
+  cursor: not-allowed;
+}
+
+.projects-sect .projects-grid .card .buttons-container .btn-disable:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+
 .projects-sect .projects-grid .project1 {
   grid-column: 1 / span 2;
 }

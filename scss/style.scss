@@ -355,6 +355,13 @@ header {
           text-align: center;
           padding: 0.5rem 1rem;
         }
+        .btn-disable {
+          cursor: not-allowed;
+          &:hover {
+            opacity: 1;
+            transform: scale(1);
+          }
+        }
       }
     }
     .project1 {
